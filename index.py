@@ -18,7 +18,7 @@ def handler(event, context):
         </html>
     """
     return {'statusCode': 200,
-            'body': html
+            'body': html,
             'headers': {
                 'Content-Type': 'application/json',
                 'Access-Control-Allow-Origin': '*',
